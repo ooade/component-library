@@ -1,0 +1,41 @@
+{
+  "name": "smashing-mag-component-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/mag-component-library.js",
+  "module": "dist/mag-component-library.es.js",
+  "scripts": {
+    "build": "rollup -c",
+    "bundle-size": "cat dist/mag-component-library.js | gzip | wc -c",
+    "storybook": "start-storybook -p 9000 -c .storybook"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "polished": "^3.6.5"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@storybook/addon-knobs": "^6.0.10",
+    "@storybook/addons": "^6.0.10",
+    "@storybook/react": "^6.0.10",
+    "@storybook/theming": "^6.0.10",
+    "babel-loader": "^8.1.0",
+    "emotion-theming": "^10.0.27",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rollup": "^2.26.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "storybook-addon-jsx": "^7.3.4"
+  }
+}
