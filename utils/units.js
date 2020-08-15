@@ -20,18 +20,3 @@ export const fontSizes = {
   xlarge: '1.266rem',
   xxlarge: '1.424rem',
 };
-
-export const sizeMap = {
-  small: {
-    fontSize: fontSizes['xsmall'],
-    padding: `${spacing['xsmall']} ${spacing['small']}`,
-  },
-  medium: {
-    fontSize: fontSizes['small'],
-    padding: `${spacing['small']} ${spacing['medium']}`,
-  },
-  large: {
-    fontSize: fontSizes['medium'],
-    padding: `${spacing['medium']} ${spacing['large']}`,
-  },
-};

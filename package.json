@@ -1,6 +1,6 @@
 {
-  "name": "smashing-mag-component-library",
-  "version": "1.0.0",
+  "name": "component-library-example",
+  "version": "0.1.0",
   "description": "",
   "main": "dist/mag-component-library.js",
   "module": "dist/mag-component-library.es.js",
@@ -9,6 +9,9 @@
     "bundle-size": "cat dist/mag-component-library.js | gzip | wc -c",
     "storybook": "start-storybook -p 9000 -c .storybook"
   },
+  "files": [
+    "dist"
+  ],
   "engines": {
     "node": ">=10.0.0"
   },
