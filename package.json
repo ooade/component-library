@@ -1,6 +1,6 @@
 {
   "name": "component-library-example",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "dist/mag-component-library.js",
   "module": "dist/mag-component-library.es.js",

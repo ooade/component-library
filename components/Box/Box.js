@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import isPropValid from '@emotion/is-prop-valid';
-import { spacing, theme } from '../../utils';
+import { spacing, isObjectEmpty, theme as defaultTheme,  } from '../../utils';
 
 const StyledBox = ({
   paddingX,
@@ -9,8 +9,14 @@ const StyledBox = ({
   marginY,
   width,
   display,
+  theme,
   ...props
 }) => {
+
+  if (isObjectEmpty(theme)) {
+    theme = defaultTheme;
+  }
+
   const padding = spacing[props.padding];
   let paddingTop = spacing[props.paddingTop];
   let paddingRight = spacing[props.paddingRight];
